@@ -1,9 +1,8 @@
-print("SET FUNCTIONS")
-print("*******add*******")
+print("#ADD#")
 s={'a','b','c','d'}
 s.add('e')
 print(s)
-print("TO REMOVE ELEMENT")
+print("\n#TO REMOVE ELEMENT#")
 s.discard('b')
 print(s)
 s.remove('c')
@@ -12,17 +11,19 @@ s.pop()
 print(s)
 s.clear()
 print(s)
-s1={1,2,99}
-s2={2,3,4,105,499}
-print("INTERSECTION")
+s1={1,2,3}
+print('\ns1',s1)
+s2={2,3,4,5}
+print('s2',s2)
+print("\n#INTERSECTION")
 print(s1.intersection(s2))
-print("UNION")
+print("\n#UNION")
 print(s1.union(s2))
-print("SYMMETRIC DIFFERENCE")
+print("\n#SYMMETRIC DIFFERENCE#")
 print(s1.symmetric_difference(s2))
 s1.update(s2)
 print(s1)
-print("*******CONVERT LIST TO SET*******")
+print("\n#CONVERT LIST TO SET")
 l1=[1,2,3,4,5]
 s1=set(l1)
 print(s1)
